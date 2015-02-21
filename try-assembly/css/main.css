@@ -1,0 +1,67 @@
+html, body {
+  background-color: #f5f5f5;
+  color: #ccc;
+  font-family: "Monaco", "Menlo", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+#console {
+  height: 400px;
+  width: 750px;
+  position:relative;
+  background-color: black;
+  border: 2px solid #aaa;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.jqconsole {
+    padding: 10px;
+} .jqconsole-cursor {
+    background-color: #aaa;
+} .jqconsole-blurred .jqconsole-cursor {
+    background-color: black;
+} .jqconsole-prompt {
+    color: #bee2ed;
+} .jqconsole-old-prompt {
+    color: #467c8c;
+    font-weight: normal;
+} .jqconsole-input {
+    color: #bee2ed;
+} .jqconsole-old-input {
+    color: #467c8c;
+    font-weight: normal;
+} .jqconsole-output {
+    color: #f2dcd5;
+}
+
+#main {
+  width: 750px;
+  min-height: 200px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  padding: 10px 30px 30px 30px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 25px;
+} #main h1 {
+  font-size: 36px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+#task {
+  height: 20px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #a9d5e8;
+  border-radius: 5px;
+  background-color: #cdebf7;
+}
+
