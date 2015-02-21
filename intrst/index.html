@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Anonymous+Pro' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='style.css'/>
+    <script src='script.js'></script>
+
+    <title>intrst :: global</title>
+</head>
+<body>
+    <div id='header'>
+        <span id='headerText'>intrst</span>
+    </div>
+    <div id='groups'>
+        <span id='groupHeader'>groups (not yet implemented):<hr></span>
+    </div>
+    <div id='sidebar'>
+        <!-- #sidebar shows group description and text editor -->
+        <span id='sidebarHeader'>global:<hr></span>
+            <input type="button" value="post" id="postButton" onclick="javascript:alertText()"/>
+            <textarea id='editor' maxlength="1920" minlength="10" cols="80" rows="24"></textarea>
+            <br>
+            <div id='groupDescription'>
+                <p></p>welcome to intrst. the post editor above has a character limit
+                of 1920. post whatever you want, as long it is not offensive and is relevant to the group
+                you're in. the group name is shown at the top of this division, or in the title of the
+                window, after 'intrst :: '. currently, you're in the 'global' group, for general discussion
+                on anything.</p><p>so far, there are 137 lines of markup and code.</p>
+            </div>
+        </div>
+    </div>
+    <div id='postarea'>
+        <span id='sidebarHeader'> <hr></span>
+        <div id='postcontent'>
+            posts will be shown here.
+        </div>
+    </div>
+</body>
+</html>
