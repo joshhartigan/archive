@@ -1,0 +1,31 @@
+{
+  "name": "receive",
+  "version": "0.1.0",
+  "description": "Not a package manager. A Things Manager.",
+  "main": "receive.js",
+  "bin": {
+    "receive": "./receive.js"
+  },
+  "dependencies": {
+    "colors": "1.0.2",
+    "commander": "2.3.0",
+    "request": "2.45.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshhartigan/receive"
+  },
+  "keywords": [
+    "download",
+    "request",
+    "http",
+    "json",
+    "manager"
+  ],
+  "author": "joshhartigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshhartigan/receive/issues"
+  },
+  "homepage": "https://github.com/joshhartigan/receive"
+}
