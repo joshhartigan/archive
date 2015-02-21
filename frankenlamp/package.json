@@ -1,0 +1,24 @@
+{
+  "name": "frankenlamp",
+  "version": "0.0.1",
+  "main": "main.html",
+  "scripts": {
+    "start": "nw"
+  },
+  "window": {
+    "width": 800,
+    "height": 600,
+    "title": "frankenlamp",
+    "toolbar": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshhartigan/frankenlamp"
+  },
+  "author": "Josh Hartigan",
+  "license": "BSD Simplified",
+  "bugs": {
+    "url": "https://github.com/joshhartigan/frankenlamp/issues"
+  },
+  "homepage": "https://github.com/joshhartigan/frankenlamp"
+}
