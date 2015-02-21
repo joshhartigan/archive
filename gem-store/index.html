@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="store">
+  <head>
+    <title> Angular Gem Store </title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"></script>
+  </head>
+  <body ng-controller="StoreController as store">
+
+    <h1 class='main-title'> Gem Store </h1>
+
+    <hr />
+
+    <ul class="list-group">
+      <li class="list-group-item gem" ng-repeat="product in store.products">
+
+        <h3> {{ product.name }} </h3>
+        <div class="gem-color" style="background:{{ product.color }}"></div>
+
+        <p>
+          {{ product.description }}
+          <b class="pull-right price"> {{ product.price | currency }} </b>
+        </p>
+        <button ng-show="product.canPurchase" class="trolley-add">
+          Add to Trolley
+        </button>
+
+      </li>
+    </ul>
+
+    <h1>
+      <center> Items in trolley: <span class="trolley"> 0 </span> </center>
+    </h1>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
+
